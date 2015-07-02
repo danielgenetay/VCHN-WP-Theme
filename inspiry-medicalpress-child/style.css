@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Inspiry MedicalPress Child
+ Theme URI:    http://vchn.se/twenty-fifteen-child/
+ Description:  Inspiry MedicalPress Child Theme
+ Author:       Daniel Génetay
+ Author URI:   http://genetay.com
+ Template:     inspiry-medicalpress
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         responsive-layout
+ Text Domain:  inspiry-medicalpress-child
+*/
+
+.top-padded-10 {
+    padding-top: 10px;
+}
