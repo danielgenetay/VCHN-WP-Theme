@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MedicalPress\n"
 "POT-Creation-Date: 2015-04-27 18:30+0500\n"
-"PO-Revision-Date: 2015-07-03 09:38+0200\n"
+"PO-Revision-Date: 2015-07-03 09:45+0200\n"
 "Last-Translator: M Saqib Sarwar <saqib@inspirythemes.com>\n"
 "Language-Team: M Saqib Sarwar <saqib@inspirythemes.com>\n"
 "Language: en_US\n"
@@ -346,7 +346,7 @@ msgstr ""
 
 #: include/doctor-post-type.php:33
 msgid "doctor"
-msgstr ""
+msgstr "läkare"
 
 #: include/doctor-post-type.php:47 include/doctor-post-type.php:48
 msgid "Department"
@@ -977,7 +977,7 @@ msgstr ""
 #: template-parts/home-doctors.php:82 template-parts/home-services.php:71
 #: template-parts/home-slider.php:33
 msgid "Read More"
-msgstr ""
+msgstr "Läs mer"
 
 #: single.php:34 template-parts/blog-post.php:15
 msgid "0"
@@ -1964,7 +1964,7 @@ msgstr ""
 
 #: theme-options/medical-config.php:461
 msgid "Make an Appointment"
-msgstr ""
+msgstr "Lista dig hos oss"
 
 #: theme-options/medical-config.php:466
 msgid "Appointment Form Design"
