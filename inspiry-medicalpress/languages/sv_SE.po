@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MedicalPress\n"
 "POT-Creation-Date: 2015-04-27 18:30+0500\n"
-"PO-Revision-Date: 2015-07-15 11:39+0200\n"
+"PO-Revision-Date: 2015-07-15 13:39+0200\n"
 "Last-Translator: M Saqib Sarwar <saqib@inspirythemes.com>\n"
 "Language-Team: M Saqib Sarwar <saqib@inspirythemes.com>\n"
 "Language: sv_SE\n"
@@ -731,7 +731,7 @@ msgstr ""
 
 #: loop.php:19
 msgid "No Post Found!"
-msgstr ""
+msgstr "Hittade inte något innehåll som matchar din sökning."
 
 #: make-appointment-template.php:57 template-parts/appoint-form.php:35
 #: template-parts/home-slider-form.php:27
@@ -967,7 +967,7 @@ msgstr ""
 
 #: search.php:13
 msgid "Search Results for:"
-msgstr ""
+msgstr "Visar träffar på:"
 
 #: services-four-col-template.php:96 services-one-col-template.php:85
 #: services-three-col-template.php:96 services-two-col-template.php:89
