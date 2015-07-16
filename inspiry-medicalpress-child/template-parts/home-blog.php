@@ -116,7 +116,11 @@ if ($theme_options['news_variation'] == '1') {
                                     <p><?php inspiry_excerpt(20); ?> </p>
                                 </div>
                             </article>
+                            <?php
+                            if($theme_options['display-post-link']) {
+                                    ?>
                             <a class="read-more" href="<?php the_permalink(); ?>"><?php _e('Read More', 'framework'); ?></a>
+                            <?php } ?>
                         </div>
                         <?php
                     }

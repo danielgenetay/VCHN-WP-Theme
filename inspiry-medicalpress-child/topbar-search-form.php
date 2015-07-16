@@ -1,4 +1,4 @@
-<div id="topbar-search" class="">
+<div id="topbar-search" class="topbar-search">
   <form method="get" class="topbar-search-form" action="<?php echo esc_url(home_url('/')); ?>">
     <div>
       <input type="submit" id="search-submit" value=""/>

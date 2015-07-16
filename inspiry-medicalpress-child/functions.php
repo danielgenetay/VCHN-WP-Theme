@@ -31,8 +31,26 @@ function dynamic_section($sections) {
                 'id'    => 'display-post-meta',
                 'type'  => 'switch',
                 'title' => 'Display post metadata',
-                'subtitle' => __('Display or hide date and author info on start page', 'framework'),
-                'default'   => 1,
+                'subtitle' => __('Display or hide date and author info on the start page', 'framework'),
+                'default'   => 0,
+                'on'        => __('Display','framework'),
+                'off'       => __('Hide','framework')
+            ),
+            array(
+                'id'    => 'display-post-link',
+                'type'  => 'switch',
+                'title' => 'Display post link',
+                'subtitle' => __('Display or hide the "Read More" link on the start page', 'framework'),
+                'default'   => 0,
+                'on'        => __('Display','framework'),
+                'off'       => __('Hide','framework')
+            ),
+            array(
+                'id'    => 'display-banner',
+                'type'  => 'switch',
+                'title' => 'Display banner',
+                'subtitle' => __('Display or hide the banner on all pages', 'framework'),
+                'default'   => 0,
                 'on'        => __('Display','framework'),
                 'off'       => __('Hide','framework')
             )
@@ -60,6 +78,29 @@ function dynamic_section($sections) {
                     )
                 )
             );
-    
+
     return $sections;
 }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Load Required JS Scripts
+/*-----------------------------------------------------------------------------------*/
+if (!function_exists('vchn_load_scripts')) {
+    function vchn_load_scripts() {
+        if (!is_admin()) {
+
+            global $theme_options;
+
+            /* Defining scripts directory uri */
+            $js_path = get_stylesheet_directory_uri() . '/js/';
+            $inspiry_localized_data = array();
+
+            /* Registering Custom Script */
+            wp_register_script('vchn-script', $js_path . 'vchn.js', array('jquery','velocity','meanmenu'), '1.0', true);
+
+            wp_enqueue_script('vchn-script');
+        }
+    }
+}
+add_action('wp_enqueue_scripts', 'vchn_load_scripts');

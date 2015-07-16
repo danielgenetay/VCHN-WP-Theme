@@ -114,7 +114,9 @@ if ($theme_options['display_top_header']) {
               </div>
         </div>
     </div>
+    <!-- topbar search -->
     <?php get_template_part('topbar-search-form'); ?>
+    <!-- /topbar search -->
 <?php
 }
 ?>
