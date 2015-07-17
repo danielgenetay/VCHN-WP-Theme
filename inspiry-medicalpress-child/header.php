@@ -56,7 +56,7 @@ if ($theme_options['display_top_header']) {
                 <?php
                 if ((!empty($theme_options['header_opening_hours'])) || (!empty($theme_options['header_contact_number']))) {
                     ?>
-                    <div class="<?php bc('6', '6', '12', ''); ?> text-rightt">
+                    <div class="<?php bc('8', '8', '12', ''); ?> text-right">
                         <?php
                         /* WPML Language Switcher */
                         if($theme_options['display_wpml_flags']){
@@ -86,8 +86,8 @@ if ($theme_options['display_top_header']) {
                                 echo '<span>' . $theme_options['header_opening_hours'] . '</span>';
                             }
                             if (!empty($theme_options['header_contact_number'])) {
-                                echo '<br class="visible-ms" />';
-                                //echo '&nbsp;&nbsp;';
+                                //echo '<br class="visible-ms" />';
+                                echo '&nbsp;&nbsp;';
                                 _e('Contact', 'framework');
                                 echo ' : ';
                                 echo '<span>' . $theme_options['header_contact_number'] . '</span>';
