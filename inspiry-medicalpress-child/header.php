@@ -48,7 +48,7 @@ if ($theme_options['display_top_header']) {
                     <?php
                     if (!empty($theme_options['top_header_text'])) {
                         ?>
-                        <p><?php echo $theme_options['top_header_text']; ?></p>
+                        <p class="yellow-text"><?php echo $theme_options['top_header_text']; ?></p>
                         <?php
                     }
                     ?>
