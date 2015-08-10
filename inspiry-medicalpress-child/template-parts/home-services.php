@@ -69,7 +69,7 @@
                                             <h5><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h5>
                                             <p><?php inspiry_excerpt(37); ?></p>
                                             <a rel="bookmark" class="read-more" href="<?php the_permalink(); ?>"><?php _e('Read More','framework'); ?></a>
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sll-logo.png" style="height:30px;float:right;" />
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sll-logo.png" style="height:40px;float:right;" />
                                         </div>
                                     </div>
                                 </article>
