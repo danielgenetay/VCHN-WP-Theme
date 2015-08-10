@@ -10,9 +10,6 @@ get_template_part('template-parts/banner');
                     <?php theme_breadcrumb(); ?>
                 </nav>
             </div>
-            <div class="<?php bc('3', '4', '12', ''); ?>">
-                <?php get_template_part('search-form'); ?>
-            </div>
         </div>
     </div>
 </div>
