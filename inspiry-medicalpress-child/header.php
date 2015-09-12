@@ -33,6 +33,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <?php include_once("analyticstracking.php") ?>
 
 <!--[if lt IE 7]>
 <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="<?php echo 'http://browsehappy.com/'; ?>">upgrade your browser</a> or <a href="<php echo 'http://www.google.com/chromeframe/?redirect=true'; ?>">activate Google Chrome Frame</a> to improve your experience.</p>
