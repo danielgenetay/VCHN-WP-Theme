@@ -12,8 +12,14 @@
  Text Domain:  inspiry-medicalpress-child
 */
 
-.yellow-text {
-    color: #eeee22;
+p.header {
+    font-weight: bold;
+}
+p.header span {
+    font-weight: normal;
+}
+p.header a {
+    color: white;
 }
 .top-padded-10 {
     padding-top: 10px;

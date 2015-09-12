@@ -53,6 +53,13 @@ function dynamic_section($sections) {
                 'default'   => 0,
                 'on'        => __('Display','framework'),
                 'off'       => __('Hide','framework')
+            ),
+            array(
+                'id' => 'top-header-text-url',
+                'type' => 'text',
+                'title' => __('Header Text URL', 'framework'),
+                'subtitle' => __('Provide the URL to link the text in the header top bar', 'framework'),
+                'required'  => array('display_top_header', '=', '1')
             )
         )
     );

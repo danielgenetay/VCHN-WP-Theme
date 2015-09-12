@@ -48,7 +48,15 @@ if ($theme_options['display_top_header']) {
                     <?php
                     if (!empty($theme_options['top_header_text'])) {
                         ?>
-                        <p class="yellow-text"><?php echo $theme_options['top_header_text']; ?></p>
+                        <p class="header"><?
+                          if(!empty($theme_options['top-header-text-url'])){
+                            echo '<a href="'.$theme_options['top-header-text-url'].'" target="_blank">';
+                          }
+                          echo $theme_options['top_header_text'];
+                          if(!empty($theme_options['top-header-text-url'])){
+                            echo '</a>';
+                          }
+                        ?></p>
                         <?php
                     }
                     ?>
@@ -78,7 +86,7 @@ if ($theme_options['display_top_header']) {
                             }
                         }
                         ?>
-                        <p>
+                        <p class="header">
                             <?php
                             if (!empty($theme_options['header_opening_hours'])) {
                                 _e('Opening Hours', 'framework');
