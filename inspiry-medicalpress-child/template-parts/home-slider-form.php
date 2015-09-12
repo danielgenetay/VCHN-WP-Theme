@@ -24,7 +24,7 @@ if (!empty($theme_options['appointment_form_email'])) {
                     <div class="appointment-form clearfix animated">
                         <form class="clearfix" id="appointment_form_one" action="<?php echo admin_url( 'admin-ajax.php' ); ?>" method="post" >
                             <FONT COLOR="FFFFFF"><strong>&nbsp&nbspALTERNATIV 1</strong>&nbsp&nbsp <a href="https://minavardkontakter.se/C125755F00329208/p/startpage">Lista online</a>&nbsp (med e-legitimation)</FONT>
- <br><br><FONT COLOR="FFFFFF"><strong>&nbsp&nbspALTERNATIV 2</strong>&nbsp&nbsp&nbsp<a target="_blank" href="/wp-content/uploads/2015/07/HSF-058-Vårdvalsblankett_husläkare_vuxen_ifb.pdf">Listningsblankett för Vuxna (pdf)</a>&nbsp&nbsp&nbspoch <a target="_blank" href="/wp-content/uploads/2015/07/HSF-058-Vårdvalsblankett_husläkare_barn_ifb.pdf">&nbspBarn (pdf)</a>&nbsp&nbsp&nbsp Skickas ofrankerat till:&nbsp&nbsp Vårdcentralen Hökarängen, Svarspost 20650948, 123 20 Farsta </FONT>
+ <br><br><FONT COLOR="FFFFFF"><strong>&nbsp&nbspALTERNATIV 2</strong>&nbsp&nbsp&nbsp<a target="_blank" href="/wp-content/uploads/2015/08/HSF-058-Vårdvalsblankett_husläkare_vuxen_ifb.pdf">Listningsblankett för Vuxna (pdf)</a>&nbsp&nbsp&nbspoch <a target="_blank" href="/wp-content/uploads/2015/08/HSF-058-Vårdvalsblankett_husläkare_barn_ifb.pdf">&nbspBarn (pdf)</a>&nbsp&nbsp&nbsp Skickas ofrankerat till:&nbsp&nbsp Vårdcentralen Hökarängen, Svarspost 20650948, 123 20 Farsta </FONT>
                             <div class="<?php bc_all('12') ?>">
                                 <input type="hidden" name="action" value="make_appointment">
                                 <input type="hidden" name="nonce" value="<?php echo wp_create_nonce('request_appointment_nonce'); ?>" />
